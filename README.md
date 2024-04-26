@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: Jan. 24, 2024
+Last modified: April 26, 2024
 
 # Model: USR-N510
 
@@ -57,7 +57,7 @@ Last modified: Jan. 24, 2024
 >>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
 >>>> - Local Port Number: 502
 >>>> - PRINT: OFF
->>>> - Modbus Poll [v] / Response Timeout: 2000
+>>>> - Modbus Poll [ ] / Response Timeout: 2000
 >>>> - Modbus TCP Exception [v]
 >>>> - Enable Net Heartbeat [ ]
 >
