@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: May 2, 2024
+Last modified: July 15, 2024
 
 # Model: USR-N510
 
@@ -22,7 +22,7 @@ Last modified: May 2, 2024
 
 ## Status
 - Model Name: USR-N510
-- Firmware Version: V2.0.8
+- Firmware Version: **V2.0.19**
 - Type: H7
 
 ## Network
@@ -30,9 +30,9 @@ Last modified: May 2, 2024
 >### IP Config
 >- Method of IP Obtaining: Static IP
 >- DNS: Auto
->- IP Address: 192.168.100.101
+>- IP Address: 192.168.0.7
 >- Subnet mask: 255.255.255.0
->- Gateway: 192.168.100.1
+>- Gateway: 192.168.0.1
 >- Preferred DNS Server: 168.126.63.1
 >- Alternative DNS Server: 223.5.5.5
 
@@ -54,7 +54,7 @@ Last modified: May 2, 2024
 >> #### Socket
 >>> Socket A
 >>>> - Working Mode: TCP Server / ModbusTCP
->>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
+>>>> - Maximum Sockets supported: 8 / Exceeding Maximum: KICK
 >>>> - Local Port Number: 502
 >>>> - PRINT: OFF
 >>>> - Modbus Poll [ ] / Response Timeout: 2000
@@ -91,16 +91,17 @@ Last modified: May 2, 2024
 >> - Model Name: USR-N510
 >> - Websocket Port: 6432
 >> - Websocket Direction: UART1
+>> - Log Switch: OFF
 >> - Webserver Port: 80
 >> - User Name: admin
 >> - UART Cache: OFF
->> - Restarting Without Data: 0
+>> - Restarting Without Data: **3600**
 >> - SNMP: OFF
 >> - Telnet: OFF
 >> - NTP: ON
 >> - NTP Server Address: cn.ntp.org.cn
 >> - NTP Timezone Setting: UTC+9
->> - 485 Anit-Collision: ON
+>> - 485 Anit-Collision: **ON**
 >> - 485-Idle Time: 10
 
 > ### Management
